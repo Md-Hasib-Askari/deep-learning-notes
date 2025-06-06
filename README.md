@@ -2,8 +2,6 @@
 
 ## 🧠 DEEP LEARNING ROADMAP
 
----
-
 ### 🔰 Phase 1: Foundations (Beginner)
 
 **Goal:** Understand the mathematical and theoretical building blocks.
