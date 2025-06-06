@@ -1,5 +1,3 @@
-# deep-learning-notes
-
 ## 🧠 DEEP LEARNING ROADMAP
 
 ### 🔰 Phase 1: Foundations (Beginner)
