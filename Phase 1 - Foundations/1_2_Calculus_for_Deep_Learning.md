@@ -7,13 +7,15 @@
    * Measures how a function changes as its input changes.
    * Notation:
 
-     * $f'(x)$, $\frac{df}{dx}$, or $\nabla f(x)$
+     ![image](https://github.com/user-attachments/assets/89c34922-868f-439b-b8be-526153baa939)
+
 
 2. **Chain Rule**
 
    * Used when functions are composed:
 
-     * $\frac{dz}{dx} = \frac{dz}{dy} \cdot \frac{dy}{dx}$
+     ![image](https://github.com/user-attachments/assets/fded2a53-64d9-4347-8965-626893aac268)
+
    * Critical in **backpropagation**.
 
 3. **Partial Derivatives**
@@ -21,7 +23,7 @@
    * Derivatives w\.r.t. one variable while keeping others constant.
    * Notation:
 
-     * $\frac{\partial f}{\partial x}$
+     ![image](https://github.com/user-attachments/assets/a97e3652-52e9-49a8-934e-eb5cd3f5056c)
 
 4. **Gradient**
 
@@ -60,9 +62,10 @@
 
 #### ✅ Math Practice
 
-1. Find the derivative of $f(x) = x^2 + 3x + 5$
+1. Find the derivative of ![image](https://github.com/user-attachments/assets/6d6278d7-699f-4b83-8937-bc2510d5a418)
+
 2. Use chain rule to find:
-   If $f(x) = \sin(2x^2)$, find $f'(x)$
+   If ![image](https://github.com/user-attachments/assets/33ab6247-361b-4c07-97dd-562e7a543f9c)
 
 #### ✅ Coding (Symbolic & Numerical Derivatives)
 
