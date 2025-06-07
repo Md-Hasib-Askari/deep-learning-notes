@@ -40,15 +40,15 @@
 #### 🔸 Regression
 
 * **MSE (Mean Squared Error)**:
-  $\frac{1}{n} \sum (y - \hat{y})^2$
+  ![image](https://github.com/user-attachments/assets/cfd96410-95ec-4baa-9a2b-5d837d29ff2d)
+
 
 #### 🔸 Classification
 
 * **Binary Cross-Entropy**:
-
-  $$
-  L = -[y \log(\hat{y}) + (1 - y)\log(1 - \hat{y})]
-  $$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9a856148-ae23-4c76-8ab1-f4cc46de5e64" alt="Binary Cross-Entropy"/>
+</p>
 
 * **Categorical Cross-Entropy**: for multi-class classification
 
@@ -58,7 +58,7 @@
 
 * **Gradient Descent**:
   Update weights:
-  $w = w - \eta \cdot \nabla L(w)$
+  ![image](https://github.com/user-attachments/assets/f888e032-d199-4dd4-8678-8c966da0a76f)
 
 * Types:
 
