@@ -13,11 +13,11 @@ Generative models learn to capture the **underlying distribution** of data and c
 
 ### 🔄 Contrast with Discriminative Models:
 
-| Discriminative               | Generative               |                           |        |
-| ---------------------------- | ------------------------ | ------------------------- | ------ |
-| Learn \*\*P(y                | x)\*\*                   | Learn **P(x)** or \*\*P(x | y)\*\* |
-| Focus on classification      | Focus on data generation |                           |        |
-| Example: Logistic Regression | Example: GAN, VAE        |                           |        |
+| Discriminative               | Generative                          |
+| ---------------------------- | ----------------------------------- |
+| Learn **P(y \| x)**          | Learn **P(x)** or **P(x \| y)**     |
+| Focus on classification      | Focus on data generation            |
+| Example: Logistic Regression | Example: GAN, VAE                   |
 
 ---
 
@@ -35,9 +35,10 @@ It learns a probability **distribution** over latent variables rather than fixed
 
 ### 🔍 Key Loss Function:
 
-$$
-\text{Loss} = \text{Reconstruction Loss} + \text{KL Divergence}
-$$
+```math
+  Loss = Reconstruction \ Loss + KL \ Divergence
+```
+
 
 ### 🔧 PyTorch Sketch:
 
@@ -66,9 +67,9 @@ They compete, and both improve.
 
 ### 🎯 Objective:
 
-$$
-\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{\text{data}}}[\log D(x)] + \mathbb{E}_{z \sim p_z}[\log(1 - D(G(z)))]
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/91121f23-ea57-4b16-87b8-d0400e6ab0cf " alt="Objective " />
+</p>
 
 ### 🔧 GAN Training Pitfalls:
 
