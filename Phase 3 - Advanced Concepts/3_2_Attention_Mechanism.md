@@ -23,9 +23,9 @@ Traditional RNNs/CNNs treat input features with equal importance or rely on fixe
 
 Each output is a **weighted sum** of all input tokens — where weights represent **importance**.
 
-$$
-\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right) V
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0478fc09-c9c2-4403-b316-c3eb6d9b0874" alt="Attention " />
+</p>
 
 * **Q (Query)**: What we want to find.
 * **K (Key)**: What we compare with.
@@ -59,9 +59,9 @@ Instead of computing one attention distribution, do it **multiple times in paral
 
 This allows the model to **attend to information at different positions and subspaces**.
 
-$$
-\text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, ..., \text{head}_h)W^O
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/54edc68e-4768-4b11-85c3-42f408482025 " alt="Multi-Head Attention " />
+</p>
 
 ---
 
