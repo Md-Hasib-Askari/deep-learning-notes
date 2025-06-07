@@ -18,21 +18,22 @@
 
 #### ✅ **Bernoulli Distribution**
 
-* Outcome: 0 or 1
-* $P(x=1) = p,\quad P(x=0) = 1 - p$
+* Outcome: 0 or 1  
+![image](https://github.com/user-attachments/assets/f8461585-0eb0-492b-9a4e-87881438326b)
+
 
 #### ✅ **Binomial Distribution**
 
-* Number of successes in $n$ independent trials
-* $P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}$
+* Number of successes in $n$ independent trials  
+![image](https://github.com/user-attachments/assets/7d821bac-3d1c-4bce-a930-f656f5bea81f)
+
 
 #### ✅ **Normal (Gaussian) Distribution**
 
-* Continuous, bell-shaped
-* Defined by:
-  $\mu$ (mean), $\sigma$ (std dev)
-* PDF:
-  $\frac{1}{\sqrt{2\pi\sigma^2}} e^{ -\frac{(x - \mu)^2}{2\sigma^2} }$
+* Continuous, bell-shaped  
+![image](https://github.com/user-attachments/assets/e5020e1c-09f7-4053-bc62-84a16584daee)  
+![image](https://github.com/user-attachments/assets/3e21de55-482a-47bf-8359-99fba98ecce9)
+
 
 ---
 
@@ -42,16 +43,17 @@
 * **Median**: Middle value
 * **Mode**: Most frequent value
 * **Variance**: Spread of the data
-  $\text{Var}(X) = E[(X - \mu)^2]$
+  ![image](https://github.com/user-attachments/assets/47f55bba-9a5a-483f-befa-a7c32c2e4f54)
+
 * **Standard Deviation**: Square root of variance
 
 ---
 
 ### 📌 4. **Bayes’ Theorem**
 
-$$
-P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/beb5f753-7a70-4da2-8f1b-535e8bd42f95" alt="Example Image" width="400"/>
+</p>
 
 * Used in **generative models**, **Naive Bayes**, **Bayesian neural nets**
 
