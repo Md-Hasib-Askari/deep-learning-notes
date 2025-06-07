@@ -31,11 +31,12 @@ Agent → takes action → Environment → returns reward & new state → Agent 
 
 Maximize cumulative reward (expected return) over time:
 
-$$
-R_t = \sum_{k=0}^{\infty} \gamma^k r_{t+k+1}
-$$
 
-Where $\gamma \in [0,1]$ is the **discount factor**.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46ab6c20-7de0-4854-8fb6-c86ff322952f " alt=" " />
+</p>
+
+Where **γ** in [0,1] is the **discount factor**.
 
 ---
 
@@ -50,9 +51,9 @@ Learn a **value function** to evaluate states or state-action pairs.
 * Learn Q(s, a): expected reward for taking action `a` in state `s`
 * **Update rule**:
 
-$$
-Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_{a'} Q(s', a') - Q(s, a)]
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be92efd4-7712-4a9d-83d0-b6fe76e5539f " alt=" " />
+</p>
 
 ---
 
@@ -64,9 +65,9 @@ Directly learn the **policy function** π(a|s) without using value functions.
 
 * Updates the policy parameters in the direction that improves performance:
 
-$$
-\nabla_\theta J(\theta) = \mathbb{E}[\nabla_\theta \log \pi_\theta(a|s) \cdot R]
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/57797bd7-1a6f-41ba-9368-ca6ba7975528 " alt=" " />
+</p>
 
 ---
 
