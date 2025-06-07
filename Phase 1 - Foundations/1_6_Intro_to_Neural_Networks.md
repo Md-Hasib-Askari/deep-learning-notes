@@ -10,14 +10,11 @@ A **neural network** is a series of mathematical functions that map input data t
 
 The **perceptron** is the simplest neural unit:
 
-$$
-y = f(w_1x_1 + w_2x_2 + \dots + w_nx_n + b)
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/48b7301a-8985-45d8-bdc1-2bfcd308a329" alt="Perceptron (Single-Layer)" />
+</p>
 
-* $w$: weights
-* $x$: inputs
-* $b$: bias
-* $f$: activation function (e.g. step, sigmoid, ReLU)
+![image](https://github.com/user-attachments/assets/130e9305-1c14-4955-b86b-e263a12d8d35)
 
 ---
 
@@ -29,10 +26,9 @@ $$
 
 Each layer performs:
 
-$$
-z = W \cdot x + b \\
-a = f(z)
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/174a0654-829b-47b4-acb5-f768619f46e3" alt="Feedforward Neural Network Function" />
+</p>
 
 ---
 
@@ -42,21 +38,21 @@ These introduce **non-linearity** so the model can learn complex patterns.
 
 #### 🔸 **Sigmoid**
 
-$$
-f(x) = \frac{1}{1 + e^{-x}} \quad \text{(output between 0 and 1)}
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f339c1d9-8d14-43a2-a3c4-82657f731e62" alt="Sigmoid " />
+</p>
 
 #### 🔸 **Tanh**
 
-$$
-f(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}} \quad \text{(output between -1 and 1)}
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/badfbdc6-337c-42c2-b86e-006dde06ded8" alt="Tanh " />
+</p>
 
 #### 🔸 **ReLU (Rectified Linear Unit)**
 
-$$
-f(x) = \max(0, x) \quad \text{(most commonly used)}
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c8c43c25-5b0d-49f1-aaa4-50b1d2f8efa3" alt="ReLU (Rectified Linear Unit)" />
+</p>
 
 ---
 
@@ -64,17 +60,18 @@ $$
 
 Quantify how bad your model's prediction is.
 
-#### For regression:
+#### For regression:  
 
-* **MSE**: $\frac{1}{n} \sum (y - \hat{y})^2$
+![image](https://github.com/user-attachments/assets/16791035-cbd6-44a8-8309-d0c00df7cac0)
+
 
 #### For classification:
 
 * **Cross-entropy**:
 
-$$
-- [y \log(\hat{y}) + (1 - y)\log(1 - \hat{y})]
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40a2fc8f-1049-4bd7-803e-1245f0e91c1f " alt="Cross-entropy " />
+</p>
 
 ---
 
