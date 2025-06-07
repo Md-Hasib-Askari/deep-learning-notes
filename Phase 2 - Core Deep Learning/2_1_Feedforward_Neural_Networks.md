@@ -19,16 +19,16 @@ Backpropagation is the core learning algorithm that:
 
 #### Math Sketch:
 
-Given:
+Given:  
 
-* Loss: $L = f(y, \hat{y})$
-* Weights: $w$
+![image](https://github.com/user-attachments/assets/f231c196-e441-4a25-89a8-7478a6c4bafe)
+
 
 Then:
 
-$$
-\frac{\partial L}{\partial w} = \frac{\partial L}{\partial \hat{y}} \cdot \frac{\partial \hat{y}}{\partial z} \cdot \frac{\partial z}{\partial w}
-$$
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/65125cc8-2370-487f-ad36-ee22e8564989 " alt="Backpropagation" />
+</p>
 
 ---
 
