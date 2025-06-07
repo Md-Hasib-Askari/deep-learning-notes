@@ -52,7 +52,7 @@
 ### 📌 4. **Bayes’ Theorem**
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/beb5f753-7a70-4da2-8f1b-535e8bd42f95" alt="Example Image" width="400"/>
+  <img src="https://github.com/user-attachments/assets/beb5f753-7a70-4da2-8f1b-535e8bd42f95" alt="Bayes’ Theorem"/>
 </p>
 
 * Used in **generative models**, **Naive Bayes**, **Bayesian neural nets**
